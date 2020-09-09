@@ -1,0 +1,21 @@
+.animated-box{
+  width: 200px;
+  height: 150px;
+  border: 1px solid gray;
+  margin: 25px;
+  position: relative;
+  animation: mymove infinite;
+  animation-duration: 500ms;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 150px;}
+}
+
+.box{
+  width: 200px;
+  height: 150px;
+  border: 1px solid gray;
+  margin: 25px;
+}

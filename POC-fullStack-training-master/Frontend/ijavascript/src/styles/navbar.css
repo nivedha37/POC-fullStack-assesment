@@ -1,0 +1,39 @@
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  /* z-index: 1; */
+  top: 0;
+  left: 40px;
+  background-color: #F2F2F2;
+  overflow-x: hidden;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.links{
+  padding: 40px 20px;
+}
+a {
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 28px;
+  color: #CC0000;
+  display: block;
+  border-bottom: 1px solid black;
+}
+
+.links a:hover,
+.links a:active,
+.links a:link {
+  color: #666666;
+  border-bottom: 1px solid #666666;
+}
+.links a:active{
+  color: #666666;
+  border-bottom: 1px solid #666666;
+}
+.active{
+  color: #666666;
+  border-bottom: 1px solid #666666;
+}

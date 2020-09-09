@@ -1,0 +1,82 @@
+.login-form, .header-section{
+  background-color: #CC0000;
+}
+
+.login-form{
+  width: 715px;
+  height: 326px;
+  padding: 20px;
+   /* padding: 50px 20px 60px; */
+  position: relative;
+}
+
+.header-section{
+  background-color: #CC0000;
+  width: 300px;
+  height: 115px;
+}
+
+.header-section h3, h1{
+  color: white;
+  font-family: 'Microsoft JhengHei';
+  margin-left: 20px;
+}
+
+.header-section h3{
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+.header-section h1{
+  font-size: 48px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.login-form label{
+  font-family: 'Arial';
+  font-size: 18px;
+  color: #FFF;
+  width: 20%;
+  padding: 10px 0;
+}
+
+.login-btn{
+  background-color: #CC9900;
+  border-color: #775900;
+  color: #FFF;
+  border-radius: 5px;
+  padding: 5px 30px 5px 30px;
+  outline: none;
+  position: absolute;
+  right: 20px;
+}
+
+.userId, .password{
+  display: flex;
+  margin-top: 20px;
+}
+
+.userId{
+  padding-top: 20px;
+}
+.userId input, .password input{
+  padding: 5px;
+  width: 50%;
+}
+input:focus,
+input:focus{
+  outline: none;
+}
+
+.error-message{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 15px;
+  color: lightgray;
+  opacity: 0.9;
+  font-style: italic;
+  background-color: #ce6060;;
+}

@@ -1,0 +1,38 @@
+.team-page{
+  width: 650px;
+  background-color: #F2F2F2;
+  position: absolute;
+  left: 360px;
+  top: 130px;
+}
+
+.team-members h2{
+  font-size: 32px;
+  font-family: 'Microsoft JhengHei';
+  border-bottom: 1px solid gray;
+  margin: 25px;
+  padding-bottom: 20px;
+}
+
+.member-list{
+  display: flex;
+  justify-content: baseline;
+  margin: 0 20px;
+}
+
+.member-list img{
+  width: 40px;
+  height: 32px;
+  margin: 5px;
+  border: 2px solid #F2F2F2;
+}
+.member-list h3{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Microsoft JhengHei';
+  margin: 8px;
+}
+.team{
+  display: flex;
+  justify-content: space-between;
+}

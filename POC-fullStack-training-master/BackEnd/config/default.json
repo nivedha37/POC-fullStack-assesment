@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://shweta123:shweta123@devconnector.ftfjr.mongodb.net/fullstackdb?retryWrites=true&w=majority",
+  "jwtSecret": "mySecretToken"
+}
